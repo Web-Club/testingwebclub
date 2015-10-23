@@ -24,3 +24,5 @@ Try out text submission : <input type="text" name="variable" size="30">
 <input type="submit">
 </form>
 </div>
+
+text added
