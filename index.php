@@ -1,3 +1,5 @@
+http://jccc.campusdemo.net/enactus/tag/jccc/
+
 <style>
 div {
     background-color:rgb(127,180,127);
@@ -17,6 +19,9 @@ Files can be edited anywhere and uploaded if it's more convienient.
 <?php
 echo '<div class="get">'.strip_tags($_GET['variable']).'</div><br>This will be executed before the document gets to the browser view the page source and you won\'t see any php';
 ?>
+
+
+
 <br>
 <a href="?variable=put+whatever+you+want+here+get+variables">Try out this url</a>
 <form action="" method="get">
@@ -26,3 +31,13 @@ Try out text submission : <input type="text" name="variable" size="30">
 </div>
 
 text added
+
+
+<br><br>
+
+<?php
+
+echo 'hello world!';
+
+include 'includethisfile.php';
+?>
